@@ -2,6 +2,11 @@
 layout: default
 ---
 
+
+<img src="jacksparrowcover.jpg" width="100%" height="50%">
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
