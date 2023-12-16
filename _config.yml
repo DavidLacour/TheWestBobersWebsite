@@ -2,3 +2,6 @@ theme: jekyll-theme-minimal
 title: TheWestBobersWebsite
 description: Pivotal Movies
 show_downloads: False
+navigation:
+  - title: Home
+    url: /
