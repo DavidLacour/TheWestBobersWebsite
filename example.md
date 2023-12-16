@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+![Alt text](/path/to/jacksparrowcover.jpg)
 
 <img src="jacksparrowcover.jpg" width="100%" height="50%">
 
