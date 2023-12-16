@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: TheWestBobersWebsite
 description: A template website for ADA
-show_downloads: False
+show_downloads: false
 redirects:
   "/": "/main"
