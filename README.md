@@ -1,4 +1,7 @@
 --- layout: default ---
+--- 
+layout: default
+---
 <img src="jackstitel.png" style="width:100%; height:auto;">
 
 We defines movies that serve as wellsprings of inspiration and set the trends. This are movies that are so innovative that they changed the cinematic worlds forever. These are movies that are not only successful but also films that get heavily imitated, even parodied, and, most importantly, act as a construction basis for future movies.
