@@ -1,4 +1,6 @@
---- layout: default —
+--
+layout: default
+--
 
 # ADA Template Website
 ## Usage
