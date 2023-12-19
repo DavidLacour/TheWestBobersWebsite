@@ -25,7 +25,7 @@
 
 Let's look at the distribution among the years; this is important because if we want to find the movie that creates trends, we need to take into account the distribution. We have to be careful because each year more and more movies are released, mainly because of technological advances. 
 
-<img src="data_graphs/release_years_world_vs_usa.png.png">
+<img src="data_graphs/release_years_world_vs_usa.png">
 
 
 #  Cleaning the data
