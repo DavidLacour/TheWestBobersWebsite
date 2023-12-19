@@ -65,7 +65,7 @@ The last step is to filter our data. Indeed, we want to focus our analysis only 
 
 ### is there missing revenue? 
 
-<img src="data_graphs/missing_revenue_over_the_years.png" >
+<img src="data_graphs/missing_revenue_over_the_years.png">
 
 As seen in the previous part a lot data is missing for the revenue column. Furthermore, for future analysis of pivotal movies (cf README), we would like to have a review feature. This feature will take value from 0 to 10 and will be linked to another feature : number of reviews available. So we will add the two dataset below. 
 
@@ -76,3 +76,36 @@ As seen in the previous part a lot data is missing for the revenue column. Furth
 [MovieStats](https://github.com/danielgrijalva/movie-stats) contains 7'668 movies including budget, box office and reviews, by scrapping IMDb between 1980 and 2010 to complete missing values from our dataset and compute more precise metrics.
 
 We repeat the cleaning process and add the two extra dataframes. 
+
+## Further cleaning and data gathering
+
+Adding IMDB dataset: 
+
+1. **Get Rid of Missing Movie Names:** Remove entries from the dataframe where movie names are missing.
+2. **Removing Some Characters and Extracting Starting Year Only:** Clean specific fields by removing unwanted characters and extract only the starting year.
+3. **Dataframe Reduction (Pre-2018 Movies):** Filter the dataframe to include only movies released before 2018, as we don't need information about movies post-2017.
+4. **Gross Income Cleaning and Conversion:** From the gross income field, remove undesired characters and convert the values to float type.
+5. **Votes Cleaning and Conversion:** Similar to gross income, remove undesired characters from the votes field and convert the values to float type.
+6. **Extract Number from Duration:** Isolate and extract the numerical value from the duration field.
+7. **Dataframe Deduplication Using Spark:** To handle the large size of the dataframe efficiently, use Apache Spark for fusing duplicate entries.
+
+### Original name map
+use the imdb title map to deal with  nomenclature changes for same movie across dataframes.
+We repeat the same change as above and we merge.
+
+<img src="data_graphs/normalised_data.png">
+
+### Award dataset
+
+We repeat the cleaning process and we add the award dataset. 
+
+### adjust revenue with inflation 
+
+#### US dollar inflation
+In the dataset, the revenues of the movies are included, in US dollars. Due to inflation, one dollar in 1914 (the earliest date of release for a movie in the dataset) compared to one dollar in 2012 (the most recent movie in the dataset) is not worth the same. The purchasing power of the money has changed and this effect has to be accounted for, if two movies from different moments in time should be compared to each other. The effect of inflation can be accounted for with an additional [dataset](https://www.officialdata.org/us/inflation/1800?amount=1#buying-power), relating the worth of US dollar in each year to the worth of US dollar in 1800:
+
+### Normalization for counterbalancing natural growth of movie industry
+
+The steady increase in total revenue over time can be explained partly by the ever increasing number of movies released per year. One should however also consider the steady growth of the movie industry, which allows a movie to make much more revenue today (with an international distribution of the movies) as opposed to earlier in time. This effect should be taken into consideration, which is why we perform a regression analysis and normalize the data accordingly:
+
+<img src="data_graphs/normalised_data.png">
