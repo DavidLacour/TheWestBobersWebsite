@@ -93,7 +93,7 @@ Adding IMDB dataset:
 use the imdb title map to deal with  nomenclature changes for same movie across dataframes.
 We repeat the same change as above and we merge.
 
-<img src="data_graphs/normalised_data.png">
+<img src="data_graphs/ratings_revenues.png">
 
 ### Award dataset
 
