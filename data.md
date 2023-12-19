@@ -81,6 +81,22 @@ We repeat the cleaning process and add the two extra dataframes.
 
 Adding IMDB dataset: 
 
+This dataset contains data for 2.5 million movies/series listed on the official website of IMDB.
+
+## Features
+
+- `id` - Movie ID
+- `name` - Name of the Movie
+- `year` - Year of movie release
+- `rating` - Rating of the Movie
+- `certificate` - Movie Certification
+- `duration` - Duration of the Movie
+- `genre` - Genre of the Movie
+- `votes` - Number of people who voted for the IMDB rating
+- `gross_income` - Gross Income of the Movie
+- `directors_id` - ID of Directors who have worked on the movie
+
+
 1. **Get Rid of Missing Movie Names:** Remove entries from the dataframe where movie names are missing.
 2. **Removing Some Characters and Extracting Starting Year Only:** Clean specific fields by removing unwanted characters and extract only the starting year.
 3. **Dataframe Reduction (Pre-2018 Movies):** Filter the dataframe to include only movies released before 2018, as we don't need information about movies post-2017.
@@ -90,12 +106,22 @@ Adding IMDB dataset:
 7. **Dataframe Deduplication Using Spark:** To handle the large size of the dataframe efficiently, use Apache Spark for fusing duplicate entries.
 
 ### Original name map
-use the imdb title map to deal with  nomenclature changes for same movie across dataframes.
+
+#### Context
+Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows:
+
+We use the imdb title map to deal with  nomenclature changes for same movie across dataframes.
 We repeat the same change as above and we merge.
 
 <img src="data_graphs/ratings_revenues.png">
 
 ### Award dataset
+
+####  Context
+The Academy Awards, also officially and popularly known as the Oscars, are awards for artistic and technical merit in the film industry. Given annually by the Academy of Motion Picture Arts and Sciences (AMPAS), the awards are an international recognition of excellence in cinematic achievements as assessed by the Academy's voting membership. The various category winners are awarded a copy of a golden statuette, officially called the "Academy Award of Merit", although more commonly referred to by its nickname "Oscar". The statuette depicts a knight rendered in Art Deco style.
+
+####  Content
+This file contains a scrape of The Academy Awards Database, recorded of past Academy Award winners and nominees between 1927 and 2023.
 
 We repeat the cleaning process and we add the award dataset. 
 
