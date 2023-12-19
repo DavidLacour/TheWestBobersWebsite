@@ -5,6 +5,8 @@ show_downloads: False
 navigation:
   - title: Home
     url: /
+      - title: Home
+    url: "/README"
 redirects:
   "/": "/README"
   redirects:
