@@ -1,10 +1,18 @@
 
 <img src="jackstitel.png" style="width:100%; height:auto;">
 
+## Definition
 We defines movies that serve as wellsprings of inspiration and set the trends. This are movies that are so innovative that they changed the cinematic worlds forever. These are movies that are not only successful but also films that get heavily imitated, even parodied, and, most importantly, act as a construction basis for future movies.
+
+We focus on american movies and genres that have more than 10 movies. 
 
 
 ## Methods ⚙️
+
+### Step 1 we need to find the highest trends:
+To find the best trends we smooth the number of movies released each year. Smoothing data from different years allows for a more direct comparison by minimizing the impact of short-term fluctuations.
+We first applies a low-pass Butterworth filter to the input signal for smoothing. It then identifies the local maxima (peaks) and inflection points in the smoothed signal. A peak is considered significant if it is higher than a given fraction ('frac') of the maximum value in the signal. Additionally, the 'quality' of a peak is assessed based on its prominence over the nearest inflection point, relative to 'frac'. Only peaks meeting both criteria (height and quality) are returned.
+
 
 ### Step 1: Pre-processing
 Pre-processing consist in formatting the data in a way that facilitate further analysis and computations. We will handle missing data and outliers, and normalize the data. We will also enrich the data with additionnal datasets, by merging informations.
