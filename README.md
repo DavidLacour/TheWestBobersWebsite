@@ -10,8 +10,27 @@ We focus on american movies and genres that have more than 10 movies.
 ## Methods ⚙️
 
 ### Step 1 we need to find the highest trends:
-To find the best trends we smooth the number of movies released each year. Smoothing data from different years allows for a more direct comparison by minimizing the impact of short-term fluctuations.
+
+We define a trend as a significant positive variation in the number of movies released in a particular genre compared to other genres. This trend is characterized by a notably higher increase in the volume of movies within a specific genre, indicating a rising popularity or interest relative to others.
+Trends should be caracterize by a high bump.
+In order find the best trends we first smooth the number of movies released each year. Smoothing data from different years allows for a more direct comparison by minimizing the impact of short-term fluctuations.
 We first applies a low-pass Butterworth filter to the input signal for smoothing. It then identifies the local maxima (peaks) and inflection points in the smoothed signal. A peak is considered significant if it is higher than a given fraction ('frac') of the maximum value in the signal. Additionally, the 'quality' of a peak is assessed based on its prominence over the nearest inflection point, relative to 'frac'. Only peaks meeting both criteria (height and quality) are returned.
+
+<img src="graphs/find_trends.png">
+
+### Step 2 get the candidates that could be pivotals:
+Once the bumps has been identified, we will select a range prior to the trend peak, assuming the pivotal movie lies inside of it. It is important to choose a proper range so we don't miss the pivotal movie (too short range), and we don't predict a movie without relation (too big range). Recognizing that films influencing a trend wouldn't be released immediately, we acknowledge the time it takes to produce a movie from scratch, typically spanning 2-3 years in 2006 ([1](https://nofilmschool.com/how-long-does-it-take-to-make-a-movie)),([2](https://www.studiobinder.com/blog/how-long-does-it-take-to-make-a-movie/)). Then, the first approach is to select a range of 5 prior years, which seems reasonable. Otherwise, a more precise method that requires more work and hypothesis would be to identify a bump as a roughly (skewed) gaussian curve. Then we could select a range of 1-2 standard deviations prior to the mean/median/mode.
+
+
+### Step 5: Pivotal Score
+Finally, we will select the most probable pivotal movie of the selected range, which maximizes a score. From our definition of pivotal movie, the score would be based on money generated (which reflects how many people watched the movie) and public advise (how was the movie recieved). The metrics used here would be box-office and review score. Then if several movies reached the top score within a certain threshold, our intuition is to prefer the earliest movie released, because it would be the most likely to influence later releases.
+
+We might investigate further metrics, such as differentiating public and press review score. We’re also thinking of the impact of inflation on the revenue (Fig. 2). It would be interesting to adapt the box-office to the real value of money according to its release year. Then observe if this changes the pivotal movie selected.
+
+### Further steps: ML approach
+We’d like to introduce a ML approach to automate the research of pivotal movies. By selecting features that capture the “trend”, with a training set of movies identified as pivotal and not (from the previous approach). Then we’ll fine tune weights to have a robust model, and possibly reveal more pivotal movies. To reduce computations, we could analyze the dataset only by a 10-year tranche.
+
+
 
 
 ### Step 1: Pre-processing
@@ -35,7 +54,7 @@ A nice visualization would be a stacked plot to combine both number of releases 
 Once the unusual shape(s) has been identified, we will select a range prior to the trend peak, assuming the pivotal movie lies inside of it. It is important to choose a proper range so we don't miss the pivotal movie (too short range), and we don't predict a movie without relation (too big range). Recognizing that films influencing a trend wouldn't be released immediately, we acknowledge the time it takes to produce a movie from scratch, typically spanning 2-3 years in 2006 ([1](https://nofilmschool.com/how-long-does-it-take-to-make-a-movie)),([2](https://www.studiobinder.com/blog/how-long-does-it-take-to-make-a-movie/)). Then, the first approach is to select a range of 5 prior years, which seems reasonable. Otherwise, a more precise method that requires more work and hypothesis would be to identify a bump as a roughly (skewed) gaussian curve. Then we could select a range of 1-2 standard deviations prior to the mean/median/mode.
 
 ### Step 5: Pivotal Score
-Finally, we will elect the most probable pivotal movie of the selected range, which maximizes a score. From our definition of pivotal movie, the score would be based on money generated (which reflects how many people watched the movie) and public advise (how was the movie recieved). The metrics used here would be box-office and review score. Then if several movies reached the top score within a certain threshold, our intuition is to prefer the earliest movie released, because it would be the most likely to influence later releases.
+Finally, we will select the most probable pivotal movie of the selected range, which maximizes a score. From our definition of pivotal movie, the score would be based on money generated (which reflects how many people watched the movie) and public advise (how was the movie recieved). The metrics used here would be box-office and review score. Then if several movies reached the top score within a certain threshold, our intuition is to prefer the earliest movie released, because it would be the most likely to influence later releases.
 
 We might investigate further metrics, such as differentiating public and press review score. We’re also thinking of the impact of inflation on the revenue (Fig. 2). It would be interesting to adapt the box-office to the real value of money according to its release year. Then observe if this changes the pivotal movie selected.
 
