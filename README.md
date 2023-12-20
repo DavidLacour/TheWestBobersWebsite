@@ -4,7 +4,7 @@
 ## Definition
 We defines movies that serve as wellsprings of inspiration and set the trends. This are movies that are so innovative that they changed the cinematic worlds forever. These are movies that are not only successful but also films that get heavily imitated, even parodied, and, most importantly, act as a construction basis for future movies.
 
-We focus on american movies and genres that have more than 10 movies. 
+We focus on american movies. If you want more information about data cleaning and data augmentations follow this: [Link to Data](data.md)
 
 
 ## Methods ⚙️
