@@ -3,9 +3,17 @@ title: TheWestBobersWebsite
 description: Pivotal Movies
 show_downloads: False
 navigation:
-  - title: Home
+  - title: Introduction
     url: /
-  - title: data
-    url: "/data"
+  - title: The Data
+    url: "/the_data"
+  - title: Our Method
+    url: "/our_method"
+  - title: The Results
+    url: "/the_results"
+  - title: Method Evaluation
+    url: "/method_evaluation"
+  - title: Conclusion
+    url: "/conclusion"
 redirects:
-  "/": "/README"
+  "/": "/introduction"
