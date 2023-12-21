@@ -20,6 +20,8 @@ At least this is the assumption on which we base this data project: There are si
 
 In the course of this data story, we will show you our way to identify these Pivotal Movies. Based on several [datasets](the_data.md), which provide us with a series of metrics on a broad range of movies, a [identification-method](our_method.md) has been developed. With this, we are able to discover [the Pivotal Movies](the_results.md) throughout the history of cinema. 
 
-[method evaluation](method_evaluation.md)
++ [method evaluation](method_evaluation.md)
 
-[conclusion](conclusion.md)
++ [conclusion](conclusion.md)
+
++ organigramme of the project method
