@@ -56,4 +56,4 @@ Analyses like this are fascinating and make us realise that the movie industry a
 
 In this graph you can choose the genre you're interested in, and our algorithm will present to you the Pivotal Movies within or correlated to this genre: 
 
-<iframe src="plots/pivtotals_movies_button.html" width="700" height="500" frameborder="0"></iframe>
+<iframe src="plots/pivtotals_movies_button2.html" width="700" height="500" frameborder="0"></iframe>
