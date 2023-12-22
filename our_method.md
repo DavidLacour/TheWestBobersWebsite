@@ -6,7 +6,7 @@
 
 ## Creating subsets
 
-In the process of searching for Pivotal Movies, we need to extract smaller dataframes that can be handled more easily. In order to keep the probability of movies influencing one another high in a dataset (which is a required characteristic of a Pivotal Movie), we decided to group the movies by genre. This way, we were able to identify 165 subsets, that contain at least 50 movies. Still the sets are not too big, so they can be handled easily and are suitable for the next steps. For subsets that contain too many movies (and don’t show sharp enough trends, see next paragraph), we divided the subsets further for movies that combine two genres. We were able to identify 424 additional subsets of double genres that contain at least 100 movies this way.
+In the process of searching for Pivotal Movies, we need to extract smaller dataframes that can be handled more easily. In order to keep the probability of movies influencing one another high in a dataset (which is a required characteristic of a Pivotal Movie), we decided to group the movies by genre. This way, we were able to identify 165 subsets, that contain at least 50 movies. Still the sets are not too big, so they can be handled easily and are suitable for the next steps. For subsets that contain too many movies (and don’t show sharp enough trends, see next paragraph), we divided the subsets further for movies that combine two genres. We were able to identify 424 additional subsets of double genres that contain at least 100 movies this way. Here are examples 
 
 
 ## Signal processing - Trend detection
