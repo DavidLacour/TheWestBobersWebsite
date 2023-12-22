@@ -70,7 +70,7 @@ In the following network graph:
 - Node Color: Purple node (center) represents the pivotal film for the Sci-Fi Horror trend of 1975.
 
 <p align="center">
-<img src="data_graphs/network.png" style="width:70%; height:auto;">
+<img src="data_graphs/network.png" style="width:100%; height:auto;">
 </p>
 
 
