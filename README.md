@@ -17,8 +17,10 @@ But be warned: Take our results with a good amount of salt - they result from an
 
 Here you can see an organigram of our method, which is explained in more detail [here](our_method.md). 
 
-
+<p align="center">
 <img src="graphs/organigram.PNG" style="width:50%; height:auto;">
+</p>
+
 
 ## Now let’s go on this data exploration journey together…
 

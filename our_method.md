@@ -37,7 +37,7 @@ We define D as the difference in years between the inflexion point and the peak.
 Having identified a set of possible Pivotal Movies in the candidate set, we use a machine learning algorithm to automatically determines the most Pivotal Movie out of each candidate set. For this purpose, a logistic regression model has been fed the following indicators, that represent a mix of industry experts, financial, and regular people metrics: 
 
 <p align="center">
-<img src="catcher_images/chaplin.jpg" style="width:50%; height:auto;">
+<img src="catcher_images/chaplin.jpg" style="width:60%; height:auto;">
 </p>
 
 ### Rating & Number of votes
@@ -45,7 +45,7 @@ Having identified a set of possible Pivotal Movies in the candidate set, we use 
 Critical reception is a key indicator of a movie’s impact and lasting influence. The Pivotal Movie should have received positive reviews from both critics and audiences, showcasing its quality and appeal. For this reason, the reviews are a metric of the model: supposedly, if a film is considered to be bad, there is a smaller chance that it influenced the movie industry and created a trend. The number of votes is included in the model too, since it accounts for the objectivity of the reviews. Having only a small number of reviews is making them less trustworthy, and also indicating that the movie is not that impactful. 
 
 <p align="center">
-  <img src="catcher_images/oscar-catch.jpg" alt="oscars" style="width: 80%; height: auto;" />
+  <img src="catcher_images/oscar-catch.jpg" alt="oscars" style="width: 60%; height: auto;" />
 </p>
 
 
@@ -109,4 +109,6 @@ Non Pivotal Movies:
 
 ### Now our model is ready, let’s see these [Pivotal Movies!](the_results.md)
 
+<p align="center">
 <img src="catcher_images/psycho.jpg" style="width:50%; height:auto;">
+</p>
