@@ -17,7 +17,7 @@ In the course of this data story, we will show you our way to identify these Piv
 
 + [conclusion](conclusion.md)
 
-<img src="graphs/organigram.PNG" style="width:100%; height:auto;">
+<img src="graphs/organigram.PNG" style="width:50%; height:auto;">
 
 ## Now let’s go on this data exploration journey together…
 
