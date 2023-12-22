@@ -11,6 +11,8 @@ navigation:
     url: "/the_results"
   - title: Conclusion
     url: "/conclusion"
+  - title: Ethics
+    url: "/ethics"
   - title: The Nerd Corner Extra
     url: "/the_data"
 redirects:
