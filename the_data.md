@@ -1,3 +1,5 @@
+<img src="catcher_images/turing.jpg" style="width:100%; height:auto;">
+
 # The Data
 
 The data for our analysis is gathered from different sources, resulting in one big dataframe, in which we collect all project-relevant information from the datasets. 
@@ -32,17 +34,20 @@ The revenues over all datasets are given in US dollars. Due to inflation, one do
 
 These two datasets ([1](https://www.kaggle.com/datasets/ashishjangra27/imdb-movies-dataset) and [2](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset))contain data for 2.5 million movies and series, listed on the official website of IMDB. They help us to fill gaps in the other dataframes and bring more completeness to our data. 
 
+<img src="catcher_images/clean_up.PNG" style="width:100%; height:auto;">
+
 
 ## Final Dataframe
 
 We performed processes of data exploration, cleaning and augmentation by merging the datasets. The exact procedure can be consulted in detail on the project [github page](https://github.com/epfl-ada/ada-2023-project-thewestbobers.git).
 
-We ended up with a clean dataset, containing movies that have been produced in the USA between XX and YY. The final dataframe includes the following characteristics for each movie: 
+We ended up with a clean dataset, containing movies in English that have been produced in the USA between 1910 and 2010. The final dataframe includes the following characteristics for each movie: 
 
 - id_wiki: The ID of the movie for Wikipedia. 
 - name: The title of the movie. 
 - year: The release year of the movie. 
-- alt_name: The alternative title of the movie. ???
+- alt_name: The alternative title of the movie.
+- revenue_norm: The normalized box office revenue, which has been corrected for inflation effects. 
 - rating: The movies rating (put together from what?)
 - votes: The number of ratings the movie received. 
 - genres: To what genres the movie belongs to. 
