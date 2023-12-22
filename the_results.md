@@ -57,6 +57,30 @@ On the other hand, some results need to be elaborated or questioned. The Silence
 
 Analyses like this are fascinating and make us realise that the movie industry and the real world are indeed intimately connected. 
 
+## Pivotal Movie Influence: The Incredible Melting Man
+
+In the analysis of Pivotal Movies, we can observe the inspirational impact that a pivotal movie can have on other successful films within a specific genre. Let's take a closer look at the example of "The Incredible Melting Man," identified as a Pivotal Movie for the Sci-Fi Horror trend of 1975.
+
+### Network Graph Visualization
+
+In the following network graph:
+
+- Node Size: Represents the median of the similarity score.
+- Edge Color: Indicates the plot similarity between two films (bluer edges represent higher similarity).
+- Node Color: Purple node (center) represents the pivotal film for the Sci-Fi Horror trend of 1975.
+
+<p align="center">
+<img src="data_graphs/network.png" style="width:70%; height:auto;">
+</p>
+
+
+### Observations:
+
+- The central purple node has the largest size, signifying the highest median similarity score with other successful films in the same genre.
+- The network structure demonstrates how this pivotal film has influenced and inspired other films within the Sci-Fi Horror trend of 1975.
+
+This visualization provides insights into the significant role of "The Incredible Melting Man" in shaping the cinematic landscape within its genre during the specified trend.
+
 
 ## Find the Pivotal Movies of your favourite genre
 
