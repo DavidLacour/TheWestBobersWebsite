@@ -1,4 +1,4 @@
-<img src="catcher_images/jackstitel.png" style="width:100%; height:auto;">
+<img src="catcher_images/back-to-the-future.jpg" style="width:100%; height:auto;">
 
 # Pivotal Movies: Catch them if you can!
 
