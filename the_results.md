@@ -40,7 +40,6 @@ It appears that some of these movies identified as pivotal in our analysis are p
 
 This alignment between our results and the IMDb list adds credibility to our findings and serves as a validation of the identified pivotal films. It seems that our algorithm is working!
 
-some critical downside to the results
 Be careful though! Our results cannot just be taken for the truth, we have to critically assess them. We built a machine that returns something for whatever we feed it. Some results strike us as obvious: It makes sense that The Godfather of Francis Ford Coppola, released in 1972, is the Pivotal Movie of the Crime Fiction trend that peaked in 1977. It is often cited as a landmark of the genre.
 
 On the other hand, some results need to be elaborated or questioned. The Silence of the Lambs by Jonathan Demme, released in 1991, and detected as the Pivotal Movie of the LGBT trend that peaked in 1993 for example. If you don’t know the movie, here is a quick synopsis: “A psychopath known as `Buffalo Bill' wreaks havoc on the `Middle West' by kidnapping and murdering young women. Clarice Starling, a young FBI agent, is assigned to interrogate ex-psychiatrist Hannibal Lecter. A fearsomely intelligent psychopath with a penchant for cannibalism, Lecter is able to provide her with information. A bond of fascination and repulsion develops between them.”
