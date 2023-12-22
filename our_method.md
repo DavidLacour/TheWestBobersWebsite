@@ -30,7 +30,7 @@ We define D as the difference in years between the inflexion point and the peak.
 
 ## Identify the Pivotal Movies
 
-Having identified a set of possible Pivotal Movies in the candidate set, we use a machine learning algorithm to automatically determines the most Pivotal Movie out of each candidate set. For this purpose, a logistic regression model has been fed the following indicators:
+Having identified a set of possible Pivotal Movies in the candidate set, we use a machine learning algorithm to automatically determines the most Pivotal Movie out of each candidate set. For this purpose, a logistic regression model has been fed the following indicators, that represent a mix of industry experts, financial, and regular people metrics: 
 
 <p align="center">
 <img src="catcher_images/chaplin.jpg" style="width:50%; height:auto;">
