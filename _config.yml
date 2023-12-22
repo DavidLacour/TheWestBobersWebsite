@@ -5,8 +5,6 @@ show_downloads: False
 navigation:
   - title: Introduction
     url: "/introduction"
-  - title: The Data
-    url: "/the_data"
   - title: Our Method
     url: "/our_method"
   - title: The Results
@@ -17,5 +15,7 @@ navigation:
     url: "/conclusion"
   - title: Ethics
     url: "/ethics"
+  - title: The Data
+    url: "/the_data"
 redirects:
   "/": "/README"
