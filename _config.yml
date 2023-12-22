@@ -4,7 +4,7 @@ description: Pivotal Movies
 show_downloads: False
 navigation:
   - title: Introduction
-    url: "/introduction"
+    url: "/README"
   - title: Our Method
     url: "/our_method"
   - title: The Results
@@ -18,4 +18,4 @@ navigation:
   - title: Ethics
     url: "/ethics"
 redirects:
-  "/": "/introduction"
+  "/": "/README"
