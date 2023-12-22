@@ -17,8 +17,8 @@ We also assume that a trend is always caused by a film, but some trends are in f
 We assume that the shape of a trend always stands out, with a noticeable inflection point, but we've noticed that some trends don't always have this shape. There are peaks, that have been classified by our algorithm to be of sufficient quality, even though a closer look tells differently: They are very flat, and therefore we cannot say that there has been a strong trend. An example of this is the Crime Fiction peak of 1948. 
 
 
+### In conclusion: 
 
-In conclusion: 
 If you don’t know the movies that our algorithm identified as Pivotal Movies - then hop onto the cinema chairs with our data analysis friends and enjoy them together! 
 
 <p align="center">
