@@ -64,7 +64,7 @@ A Pivotal Movie supposedly often exhibits exceptional financial success, indicat
 The plot similarity serves as an assessment of the extent to which a film influences other movies within the same trend. The concept is as follows: If the plot of a potential Pivotal Movie closely resembles the plots of subsequent movies in the same trend, that indicates the movie’s influence on the plot development within the trend. This similarity suggests that other films intentionally emulated the storyline, signifying the impactful nature of the Pivotal Movie. The two metrics accounting for this effect are the plot similarity before (the plot of the movie compared to all plots of the movies that have been released earlier) and after (all movies that have been released later). 
 
 <p align="center">
-  <img src="data_graphs/similarity_plot.png" alt="similarity_plot" style="width: 50%; height: auto;" />
+  <img src="data_graphs/similarity_plot.png" alt="similarity_plot" style="width: 80%; height: auto;" />
 </p>
 
 
