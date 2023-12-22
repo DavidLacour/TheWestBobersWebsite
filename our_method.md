@@ -6,7 +6,7 @@
 
 ## Creating subsets
 
-In the process of searching for Pivotal Movies, we need to extract smaller dataframes that can be handled more easily. In order to keep the probability of movies influencing one another high in a dataset (which is a required characteristic of a Pivotal Movie), we decided to group the movies by genre. This way, we were able to identify 165 subsets, that contain at least 50 movies. Still the sets are not too big, so they can be handled easily and are suitable for the next steps. For subsets that contain too many movies (and don’t show sharp enough trends, see next paragraph), we divided the subsets further for movies that combine two genres. We were able to identify 424 additional subsets of double genres that contain at least 100 movies this way. Here are examples 
+In the process of searching for Pivotal Movies, we need to extract smaller dataframes that can be handled more easily. In order to keep the probability of movies influencing one another high in a dataset (which is a required characteristic of a Pivotal Movie), we decided to group the movies by genre. This way, we were able to identify 165 subsets, that contain at least 50 movies. Still the sets are not too big, so they can be handled easily and are suitable for the next steps. For subsets that contain too many movies (and don’t show sharp enough trends, see next paragraph), we divided the subsets further for movies that combine two genres. We were able to identify 424 additional subsets of double genres that contain at least 100 movies this way.
 
 
 ## Signal processing - Trend detection
@@ -38,10 +38,10 @@ Having identified a set of possible Pivotal Movies in the candidate set, we use 
 
 ### Rating & Number of votes
 
-Critical reception is a key indicator of a movie’s impact and lasting influence. The Pivotal Movie should have received positive reviews from both critics and audiences, showcasing its quality and appeal. For this reason, the reviews are a metric of the model: Supposedly, if a film is considered to be bad, there is a smaller chance that it influenced the movie industry and created a trend. The number of votes is included in the model too, since it accounts for the objectivity of the reviews. Having only a small number of reviews is making them less trustworthy, and also indicating that the movie is not that impactful. 
+Critical reception is a key indicator of a movie’s impact and lasting influence. The Pivotal Movie should have received positive reviews from both critics and audiences, showcasing its quality and appeal. For this reason, the reviews are a metric of the model: supposedly, if a film is considered to be bad, there is a smaller chance that it influenced the movie industry and created a trend. The number of votes is included in the model too, since it accounts for the objectivity of the reviews. Having only a small number of reviews is making them less trustworthy, and also indicating that the movie is not that impactful. 
 
 <p align="center">
-  <img src="catcher_images/oscars.jpg" alt="oscars" style="width: 50%; height: auto;" />
+  <img src="catcher_images/oscars.jpg" alt="oscars" style="width: 80%; height: auto;" />
 </p>
 
 
@@ -55,7 +55,7 @@ Another metric that is to be included in the model is the recognition garnered t
 A Pivotal Movie supposedly often exhibits exceptional financial success, indicating a strong audience demand for the particular innovation. The box office revenue measures the financial success of movies, and is given in US$. Due to inflation, one dollar in 1910 compared to one dollar in 2010 is not worth the same. The purchasing power of the money has changed and this effect has to be accounted for, if two movies from different moments in time should be compared to each other. The [effect of inflation](https://www.officialdata.org/us/inflation/1800?amount=1#buying-power) has been accounted for, relating the worth of US dollar in each year to the worth of US dollar in 1800. 
 
 <p align="center">
-  <img src="data_graphs/inflation_adjusted_revenue.png" alt="inflation" style="width: 50%; height: auto;" />
+  <img src="data_graphs/inflation_adjusted_revenue.png" alt="inflation" style="width: 80%; height: auto;" />
 </p>
 
 
