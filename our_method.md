@@ -41,7 +41,7 @@ Having identified a set of possible Pivotal Movies in the candidate set, we use 
 Critical reception is a key indicator of a movie’s impact and lasting influence. The Pivotal Movie should have received positive reviews from both critics and audiences, showcasing its quality and appeal. For this reason, the reviews are a metric of the model: supposedly, if a film is considered to be bad, there is a smaller chance that it influenced the movie industry and created a trend. The number of votes is included in the model too, since it accounts for the objectivity of the reviews. Having only a small number of reviews is making them less trustworthy, and also indicating that the movie is not that impactful. 
 
 <p align="center">
-  <img src="catcher_images/oscars.jpg" alt="oscars" style="width: 80%; height: auto;" />
+  <img src="catcher_images/oscar-catch.jpg" alt="oscars" style="width: 80%; height: auto;" />
 </p>
 
 
@@ -64,7 +64,7 @@ A Pivotal Movie supposedly often exhibits exceptional financial success, indicat
 The plot similarity serves as an assessment of the extent to which a film influences other movies within the same trend. The concept is as follows: If the plot of a potential Pivotal Movie closely resembles the plots of subsequent movies in the same trend, that indicates the movie’s influence on the plot development within the trend. This similarity suggests that other films intentionally emulated the storyline, signifying the impactful nature of the Pivotal Movie. The two metrics accounting for this effect are the plot similarity before (the plot of the movie compared to all plots of the movies that have been released earlier) and after (all movies that have been released later). 
 
 <p align="center">
-  <img src="data_graphs/similarity_plot.png" alt="similarity_plot" style="width: 80%; height: auto;" />
+  <img src="data_graphs/similarity_plot.png" alt="similarity_plot" style="width: 90%; height: auto;" />
 </p>
 
 
