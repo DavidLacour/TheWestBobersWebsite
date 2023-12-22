@@ -13,9 +13,11 @@ navigation:
     url: "/method_evaluation"
   - title: Conclusion
     url: "/conclusion"
+  - title: The Data
+    url: "/the_data"
   - title: Ethics
     url: "/ethics"
   - title: The Data
     url: "/the_data"
 redirects:
-  "/": "/README"
+  "/": "/introduction"
