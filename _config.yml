@@ -9,13 +9,9 @@ navigation:
     url: "/our_method"
   - title: The Results
     url: "/the_results"
-  - title: Method Evaluation
-    url: "/method_evaluation"
   - title: Conclusion
     url: "/conclusion"
   - title: The Nerd Corner Extra
     url: "/the_data"
-  - title: Ethics
-    url: "/ethics"
 redirects:
   "/": "/README"
