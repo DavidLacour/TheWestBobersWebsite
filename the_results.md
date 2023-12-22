@@ -1,3 +1,20 @@
+<img src="catcher_images/lion_king.PNG" style="width:100%; height:auto;">
+
 # The Results
 
-present results
+Here are the movies, that have been identified as being the "most pivotal" by our algorithm (they have achieved the highest scores from the logistic regression model): 
+
+- show the most important results (maybe 10 movies)
+
+some comments on them (validation by source, why it's correect or not)
+
+Our algorithm is not the perfect method for identifying Pivotal Movies, as sometimes it cooks strange results. Here are a few examples: 
+
+- show some bad results and comment on them (why etc.)
+
+
+## Find the Pivotal Movies of your favourite genre
+
+In this graph you can choose the genre you're interested in, and our algorithm will calculate the Pivotal Movies within this genre: 
+
+(interactive graph with all subsets to choose from)
