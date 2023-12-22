@@ -1,5 +1,7 @@
 <img src="catcher_images/lion_king.PNG" style="width:100%; height:auto;">
 
+# The Results
+
 Here are the 20 movies, that have been identified as being the "most pivotal" by our algorithm (they have achieved the highest scores (Probability) from the logistic regression model):
 
 | Movie Title                           | Trend Tags                                    | Year | Probability |
@@ -39,6 +41,10 @@ It appears that some of these movies identified as pivotal in our analysis are p
 - Gone with the Wind
 
 This alignment between our results and the IMDb list adds credibility to our findings and serves as a validation of the identified pivotal films. It seems that our algorithm is working!
+
+<p align="center">
+<img src="catcher_images/choose-catch.jpg" style="width:30%; height:auto;">
+</p>
 
 Be careful though! Our results cannot just be taken for the truth, we have to critically assess them. We built a machine that returns something for whatever we feed it. Some results strike us as obvious: It makes sense that The Godfather of Francis Ford Coppola, released in 1972, is the Pivotal Movie of the Crime Fiction trend that peaked in 1977. It is often cited as a landmark of the genre.
 
