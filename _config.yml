@@ -15,5 +15,7 @@ navigation:
     url: "/method_evaluation"
   - title: Conclusion
     url: "/conclusion"
+  - title: Ethics
+    url: "/ethics"
 redirects:
   "/": "/README"
