@@ -1,5 +1,4 @@
 Potential risk: 
-Similary as people have been manipulated during the Facebook–Cambridge Analytica data scandal, we could do the same by advertising specific pivotal movies. We could advertise a specific movie as pivotal whe
-to influence them through movie. For example, if we want someone to vote more on the right we could chose a movie were all the bad guys are strangers and are terrorists then we would advertise it as pivotal movie
-. We would then show advertisement for voting more on the right. Or we could prepare video with a chosen candidate for president and we would show video where he says he wans to close the borders.  
- The influence the public the the left political side we could involve showcasing films that depict the terrible conditions of civilians in war zones or life in extrem poverty.
+Similarly to how people were manipulated during the Facebook–Cambridge Analytica data scandal, we could employ a similar strategy by promoting specific movies as pivotal. For instance, if our goal is to sway people towards right-wing voting, we could choose a movie where the antagonists are foreigners and portrayed as terrorists, then market this film as pivotal. Subsequently, we could display advertisements advocating for right-wing voting, like voting UDC. Alternatively, we could produce a video featuring a preferred presidential candidate, emphasizing their intent to tighten border security.
+
+To influence the public towards the left political side, we could focus on showcasing films that depict the harrowing conditions of civilians in war zones or the struggles of life in extreme poverty.
