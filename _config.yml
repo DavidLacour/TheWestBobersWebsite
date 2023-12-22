@@ -17,7 +17,5 @@ navigation:
     url: "/the_data"
   - title: Ethics
     url: "/ethics"
-  - title: The Data
-    url: "/the_data"
 redirects:
   "/": "/introduction"
