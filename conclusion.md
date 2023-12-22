@@ -21,6 +21,8 @@ We assume that the shape of a trend always stands out, with a noticeable inflect
 
 If you don’t know the movies that our algorithm identified as Pivotal Movies - then hop onto the cinema chairs with our data analysis friends and enjoy them together! 
 
+This ends this data story: in case we don't see ya, good afternoon, good evening and good night.
+
 <p align="center">
-<img src="catcher_images/happy_end.PNG" style="width:100%; height:auto;">
+<img src="catcher_images/final.jpg" style="width:70%; height:auto;">
 </p>
