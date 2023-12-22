@@ -18,4 +18,4 @@ navigation:
   - title: Ethics
     url: "/ethics"
 redirects:
-  "/": "/README"
+  "/": "/introduction"
