@@ -1,4 +1,4 @@
-<img src="catcher_images/choose_movies.PNG" style="width:100%; height:auto;">
+<img src="catcher_images/choose_movies.PNG" style="width:80%; height:auto;">
 
 # Our Method
 
@@ -86,6 +86,6 @@ Non Pivotal Movies:
 - All other movies within the same genres (subsets) and trends as the above Pivotal Movies. 
 
 
-### Now our model is ready, let’s see these Pivotal Movies! 
+### Now our model is ready, let’s see these [Pivotal Movies!](the_results.md)
 
 <img src="catcher_images/psycho.jpg" style="width:50%; height:auto;">
