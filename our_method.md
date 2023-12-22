@@ -1,4 +1,6 @@
-<img src="catcher_images/choose_movies.PNG" style="width:80%; height:auto;">
+<p align="center">
+  <img src="catcher_images/choose_movies.PNG" alt="Description" style="width: 80%; height: auto;" />
+</p>
 
 # Our Method
 
