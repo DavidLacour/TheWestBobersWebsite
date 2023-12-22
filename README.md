@@ -1,6 +1,6 @@
 <img src="catcher_images/back-to-the-future.jpg" style="width:100%; height:auto;">
 
-<span style="font-size: xx-larger;">Pivotal Movies: Catch them if you can!.</span>
+# Pivotal Movies: Catch them if you can!
 
 ### By TheWestBobers, a.k.a: Mehdi Abarro, Arthur Chansel, David Lacour, Paul Rebour, Manuel Zemp
 
